@@ -1,0 +1,38 @@
+.signinPage{
+    margin-top: 50px;
+}
+.form-signin
+{
+   
+    background-color: #F7F7F7;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid slategrey
+  
+}
+
+@media screen and (min-width: 1080px) {
+    .form-signin {
+        width: 30%;
+    }
+  }
+.siginB{
+    width: inherit;
+    margin: auto;
+}
+.btnjoin{
+    background-color: gainsboro;
+    
+}
+
+.signin_not{
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+
+}

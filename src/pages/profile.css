@@ -1,0 +1,33 @@
+.Profile__info__personal{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+.Profile__info__img{
+       
+}
+
+.Profile__info__img img{
+    height: 300px;
+}
+
+.Profile__info__detail{
+
+}
+
+.Profile_Table{
+    background-color: lightslategray;
+    padding: 10px;
+}
+.personalCardConfig{
+    height: fit-content;
+}
+.personalCard{
+    padding: 20px;
+}
+.personalCardBody{
+    padding:20px
+}

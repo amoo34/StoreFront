@@ -1,0 +1,36 @@
+.footer
+{
+    margin-top: 60px;
+    clear: both;
+    padding-top:30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgb(18, 11, 43);
+}
+#head
+{
+    font-size: 16px;
+    color:white;
+}
+.row
+{
+    padding-top:10px;
+}
+.nextrow
+{
+    padding-top:20px;
+}
+#para
+{
+    font-size: 14px;
+    float:left;
+    color: antiquewhite;
+}
+#copyright
+{
+    padding-top:20px;
+    color:white;
+}
+#copyright:hover{
+    color: burlywood;
+}

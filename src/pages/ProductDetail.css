@@ -1,0 +1,31 @@
+
+.productDetail_img img{
+    height:400px;
+    max-width: 400px;
+   
+}
+.productDetail_info{
+    margin-top: 50px;
+ 
+}
+.detailImg{
+    height: 250px;
+    width:250px
+}
+
+.productDetail_cart .card{
+    padding: 20px; 
+
+}
+.ProductDetail_detail{
+    background-color: rgb(92, 92, 92);
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+.deliveryDetail{
+    background-color: #F3F3F3;
+    border-radius:30px;
+    border:1px solid #F3F3F3;
+    margin:20px;
+}

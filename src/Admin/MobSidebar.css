@@ -1,0 +1,59 @@
+.Mob_Sidebar{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: fixed;
+     width:250px;
+     z-index: 1;
+     box-shadow: -1px 4px 20px 0px grey;
+}
+
+
+
+.MSidebar_Header{
+    background-color: rgb(247, 245, 245);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.MSidebar_Header h3{
+    margin: auto;
+}
+
+
+
+.MSidebar_Lists{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 245, 245);
+    align-items: center;
+    height: 100vh;
+}
+
+.MSidebar_Lists ul{
+    margin: 30px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.MSidebar_Lists ul li{
+    font-size: 21px;
+  
+    padding: 5px;
+    margin-top: 10px;
+  
+}
+
+.MSidebar_Lists ul li:hover{
+    background-color: rgb(222, 224, 224);
+  
+}
+
+.MSidebar_Lists ul li a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    padding: 10px;
+    
+}

@@ -1,0 +1,26 @@
+
+.container-fluid
+{
+    margin:0px;
+    padding:0px;
+}
+#appname
+{
+    color: aliceblue;
+}
+.appsa
+{
+    color: cornsilk;
+}
+.appcontact
+{
+    color: aliceblue;
+}
+.appabout
+{
+    color: aliceblue;
+}
+.background
+{
+    background-color: rgb(72, 136, 179);
+}

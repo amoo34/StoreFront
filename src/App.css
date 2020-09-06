@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+}
+.App {
+  display: flex;
+
+}
+.header{
+  display: flex;
+  background-color: rgb(19, 2, 43);
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+a{
+
+  font-size: 20px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand a {
+  color:white;
+  text-decoration: none;
+}
+.brand a:hover {
+  color:white;
+  text-decoration: none;
+}
+.brand button{
+  background-color: rgb(19,2,43);
+  border-color: rgb(19,2,43);
+  color: white;
+  font-size: 20px;
+   margin-right: 10px;
+}
+.header-links {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.header-links a{
+  margin-right: 10px;
+  color:white;
+}
+.header-links a:hover{
+  text-decoration: none;
+  color:white;
+}
+.sidebar{
+  display: none;
+  height:100vh;
+  width:300px;
+  background-color: rgb(240, 243, 247);
+  
+  z-index: 1;
+  position: fixed;
+
+}
+.sidebar_header{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.sidebar_header h5{
+
+}
+.sidebar_header button{
+  border-radius: 150px;
+  padding: 10px;
+}
+.categories{
+  padding: 10px;
+}

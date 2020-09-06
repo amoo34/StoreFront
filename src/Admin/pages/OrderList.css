@@ -1,0 +1,45 @@
+
+.OrderList{
+    display: flex;
+  
+}
+@media screen and (max-width: 1081px){
+    .toggler {
+        display: flex;
+      margin-left: 260px;
+      padding: 10px;
+      font-size: 20px;
+  }
+}
+@media screen and (min-width: 1081px) {
+    .toggler p {
+        display: none;
+  }
+
+        .OrderList_Screen{
+            margin-left: 260px;
+            widows: 100vw;
+        
+        }
+      }
+        .OrderList_Screen{
+            display: flex;
+            flex:1;
+            flex-direction: column;
+        }
+      .OrdetList_Heading {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 20px;
+    }
+
+      .OrderList_Table{
+          padding: 10px;
+      }
+      .OrdetList_Pagination{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top:10px;
+      }

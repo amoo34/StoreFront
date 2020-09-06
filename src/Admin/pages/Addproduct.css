@@ -1,0 +1,41 @@
+.AddProduct{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+     
+     
+}
+.toggler{
+
+}
+@media screen and (min-width: 1081px) {
+    .toggler p {
+        display: none;
+  }
+    .AddProduct__Screen{
+        margin-left: 260px;
+        widows: 100vw;
+    }
+    
+  }
+  @media screen and (max-width: 1081px){
+  .toggler{
+    display: flex;
+    margin-left: 260px;
+    padding: 10px;
+    font-size: 20px;
+}
+  }
+  .AddProduct__Screen{
+      
+      flex: 1;
+     
+  }
+
+  .AddForm{
+     display: flex;
+     flex-direction: column;
+     margin-right:10%;
+     margin-left:10%;
+     padding: 30px;
+   
+  }
